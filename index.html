@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Income Tax Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- <div class="heading-text">
+        Taxing Ain't Tuf! Is it?
+    </div> -->
+
+    <!-- <div class="nine">
+        <h1>INCOME TAX CALULATOR<span>Taxing Ain't Tuf! Is it?</span></h1>
+    </div> -->
+    <div class="contact-us">
+        <div class="nine">
+            <h1>INCOME TAX CALULATOR<span>Taxing Ain't Tuf! Is it?</span></h1>
+        </div>
+        <form id="income-tax-form" action="" onsubmit="calculateTax(event)">
+            <input type="numeber" name="totalIncome" id="total-income" placeholder="Total Income" required>
+            <input type="number" name="deductions" id="deductions" placeholder="Deductions" required>
+            <input type="number" name="exemptions" id="exemptions" placeholder="Exemptions" required>
+
+            <button type="submit">TAXIFY</button>
+        </form>
+      <div id="tax-result" style="text-align: center;">Results will be displayed here! Taxify Now!</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
