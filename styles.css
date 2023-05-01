@@ -153,8 +153,10 @@ input:-webkit-autofill:focus {
   .nine h1 span:before {
     content: " ";
     display: block;
-    border-bottom: 2px solid #f88a5f;
-    border-top: 2px solid #f88a5f;
+    /* border-bottom: 2px solid #f88a5f;
+    border-top: 2px solid #f88a5f; */
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
     height: 5px;
     background-color: #f8f8f8;
   }
